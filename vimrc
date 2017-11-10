@@ -32,7 +32,7 @@ set shellslash
 set grepprg=grep\ -nH\ $*
 
 " Initialisation de pathogen
-call pathogen#infect()
-call pathogen#helptags()
+"call pathogen#infect()
+"call pathogen#helptags()
 
 let g:tex_flavor='latex'
